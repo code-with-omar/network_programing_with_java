@@ -1,5 +1,3 @@
-package OmarFaruk;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
@@ -31,7 +29,7 @@ label3 = new JLabel("Department");
 label3.setBounds(10,110,80,25);
 panel.add(label3);
 //Creating all Textfields
-userText1 = new JTextField("Omar Faruk");
+userText1 = new JTextField("Enter Your Name");
 userText1.setBounds(100,10,200,25);
 panel.add(userText1);
 JTextField userText2 = new JTextField("Enter Your Roll");
